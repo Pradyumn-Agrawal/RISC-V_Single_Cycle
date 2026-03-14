@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,517.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,096.501 ns"></ZoomEndTime>
+      <Cursor1Time time="3,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="247" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DataAdr" type="array">
+      <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PCD" type="array">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PCE" type="array">
+      <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PCM" type="array">
+      <obj_property name="ElementShortName">PCM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PCW" type="array">
+      <obj_property name="ElementShortName">PCW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/fault_instrs" type="array">
+      <obj_property name="ElementShortName">fault_instrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fault_instrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/fw" type="array">
+      <obj_property name="ElementShortName">fw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/flag" type="array">
+      <obj_property name="ElementShortName">flag[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flag[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ADDI_x0" type="array">
+      <obj_property name="ElementShortName">ADDI_x0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDI_x0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ADDI" type="array">
+      <obj_property name="ElementShortName">ADDI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLLI" type="array">
+      <obj_property name="ElementShortName">SLLI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLLI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLTI" type="array">
+      <obj_property name="ElementShortName">SLTI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLTIU" type="array">
+      <obj_property name="ElementShortName">SLTIU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTIU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/XORI" type="array">
+      <obj_property name="ElementShortName">XORI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XORI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SRLI" type="array">
+      <obj_property name="ElementShortName">SRLI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRLI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SRAI" type="array">
+      <obj_property name="ElementShortName">SRAI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ORI" type="array">
+      <obj_property name="ElementShortName">ORI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ORI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ANDI" type="array">
+      <obj_property name="ElementShortName">ANDI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ANDI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ADD" type="array">
+      <obj_property name="ElementShortName">ADD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SUB" type="array">
+      <obj_property name="ElementShortName">SUB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLL" type="array">
+      <obj_property name="ElementShortName">SLL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLT" type="array">
+      <obj_property name="ElementShortName">SLT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SLTU" type="array">
+      <obj_property name="ElementShortName">SLTU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/XOR" type="array">
+      <obj_property name="ElementShortName">XOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XOR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SRL" type="array">
+      <obj_property name="ElementShortName">SRL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SRA" type="array">
+      <obj_property name="ElementShortName">SRA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/OR" type="array">
+      <obj_property name="ElementShortName">OR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/AND" type="array">
+      <obj_property name="ElementShortName">AND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AND[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LUI" type="array">
+      <obj_property name="ElementShortName">LUI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LUI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/AUIPC" type="array">
+      <obj_property name="ElementShortName">AUIPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AUIPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SB" type="array">
+      <obj_property name="ElementShortName">SB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SH" type="array">
+      <obj_property name="ElementShortName">SH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LB" type="array">
+      <obj_property name="ElementShortName">LB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LH" type="array">
+      <obj_property name="ElementShortName">LH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LW" type="array">
+      <obj_property name="ElementShortName">LW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LBU" type="array">
+      <obj_property name="ElementShortName">LBU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LBU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LHU" type="array">
+      <obj_property name="ElementShortName">LHU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LHU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BLT_IN" type="array">
+      <obj_property name="ElementShortName">BLT_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLT_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BLT_OUT" type="array">
+      <obj_property name="ElementShortName">BLT_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLT_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BGE_IN" type="array">
+      <obj_property name="ElementShortName">BGE_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGE_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BGE_OUT" type="array">
+      <obj_property name="ElementShortName">BGE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BLTU_IN" type="array">
+      <obj_property name="ElementShortName">BLTU_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLTU_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BLTU_OUT" type="array">
+      <obj_property name="ElementShortName">BLTU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLTU_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BGEU_IN" type="array">
+      <obj_property name="ElementShortName">BGEU_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGEU_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BGEU_OUT" type="array">
+      <obj_property name="ElementShortName">BGEU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGEU_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BNE_IN" type="array">
+      <obj_property name="ElementShortName">BNE_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BNE_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BNE_OUT" type="array">
+      <obj_property name="ElementShortName">BNE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BNE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BEQ_IN" type="array">
+      <obj_property name="ElementShortName">BEQ_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BEQ_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/BEQ_OUT" type="array">
+      <obj_property name="ElementShortName">BEQ_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BEQ_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/JALR" type="array">
+      <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/JAL" type="array">
+      <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/IMEM/InstrF" type="array">
+      <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/IMEM/Mem" type="array">
+      <obj_property name="ElementShortName">Mem[0:511][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem[0:511][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/IMEM/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/IMEM/MEMORY_WIDTH" type="array">
+      <obj_property name="ElementShortName">MEMORY_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/Memwrite_M" type="logic">
+      <obj_property name="ElementShortName">Memwrite_M</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/ADD_DM" type="array">
+      <obj_property name="ElementShortName">ADD_DM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_DM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/WD_M" type="array">
+      <obj_property name="ElementShortName">WD_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/ReadData_M" type="array">
+      <obj_property name="ElementShortName">ReadData_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/DMEM" type="array">
+      <obj_property name="ElementShortName">DMEM[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMEM[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/RAM/DMEM_WIDTH" type="array">
+      <obj_property name="ElementShortName">DMEM_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMEM_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/InstrF" type="array">
+      <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Memwrite_M" type="logic">
+      <obj_property name="ElementShortName">Memwrite_M</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ADD_DM" type="array">
+      <obj_property name="ElementShortName">ADD_DM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_DM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WD_M" type="array">
+      <obj_property name="ElementShortName">WD_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ReadData_M" type="array">
+      <obj_property name="ElementShortName">ReadData_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RF_WRITEDATA_W" type="array">
+      <obj_property name="ElementShortName">RF_WRITEDATA_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WRITEDATA_W[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ImmSrc_D" type="array">
+      <obj_property name="ElementShortName">ImmSrc_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ALUControl_D" type="array">
+      <obj_property name="ElementShortName">ALUControl_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd_Src_D" type="array">
+      <obj_property name="ElementShortName">Rd_Src_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/AluSrc_D" type="logic">
+      <obj_property name="ElementShortName">AluSrc_D</obj_property>
+      <obj_property name="ObjectShortName">AluSrc_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ImmS_D" type="logic">
+      <obj_property name="ElementShortName">ImmS_D</obj_property>
+      <obj_property name="ObjectShortName">ImmS_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Memwrite_D" type="logic">
+      <obj_property name="ElementShortName">Memwrite_D</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Regwrite_D" type="logic">
+      <obj_property name="ElementShortName">Regwrite_D</obj_property>
+      <obj_property name="ObjectShortName">Regwrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/IR_Src_D" type="logic">
+      <obj_property name="ElementShortName">IR_Src_D</obj_property>
+      <obj_property name="ObjectShortName">IR_Src_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd2Src_D" type="logic">
+      <obj_property name="ElementShortName">Rd2Src_D</obj_property>
+      <obj_property name="ObjectShortName">Rd2Src_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WD_Src_D" type="array">
+      <obj_property name="ElementShortName">WD_Src_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_Src_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RFW_Src_D" type="array">
+      <obj_property name="ElementShortName">RFW_Src_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/B_Flag_E" type="logic">
+      <obj_property name="ElementShortName">B_Flag_E</obj_property>
+      <obj_property name="ObjectShortName">B_Flag_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WDRF_SEL_D" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL_D</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/PC_BJI_D" type="array">
+      <obj_property name="ElementShortName">PC_BJI_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_BJI_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Jump_D" type="logic">
+      <obj_property name="ElementShortName">Jump_D</obj_property>
+      <obj_property name="ObjectShortName">Jump_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Branch_D" type="logic">
+      <obj_property name="ElementShortName">Branch_D</obj_property>
+      <obj_property name="ObjectShortName">Branch_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/FlushE" type="logic">
+      <obj_property name="ElementShortName">FlushE</obj_property>
+      <obj_property name="ObjectShortName">FlushE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/PC_Src_E" type="logic">
+      <obj_property name="ElementShortName">PC_Src_E</obj_property>
+      <obj_property name="ObjectShortName">PC_Src_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Branch_E" type="logic">
+      <obj_property name="ElementShortName">Branch_E</obj_property>
+      <obj_property name="ObjectShortName">Branch_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Jump_E" type="logic">
+      <obj_property name="ElementShortName">Jump_E</obj_property>
+      <obj_property name="ObjectShortName">Jump_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RegWrite_E" type="logic">
+      <obj_property name="ElementShortName">RegWrite_E</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ALUControl_E" type="array">
+      <obj_property name="ElementShortName">ALUControl_E[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_E[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd_Src_E" type="array">
+      <obj_property name="ElementShortName">Rd_Src_E[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src_E[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/AluSrc_E" type="logic">
+      <obj_property name="ElementShortName">AluSrc_E</obj_property>
+      <obj_property name="ObjectShortName">AluSrc_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/ImmS_E" type="logic">
+      <obj_property name="ElementShortName">ImmS_E</obj_property>
+      <obj_property name="ObjectShortName">ImmS_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/IR_Src_E" type="logic">
+      <obj_property name="ElementShortName">IR_Src_E</obj_property>
+      <obj_property name="ObjectShortName">IR_Src_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd2Src_E" type="logic">
+      <obj_property name="ElementShortName">Rd2Src_E</obj_property>
+      <obj_property name="ObjectShortName">Rd2Src_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WD_Src_E" type="array">
+      <obj_property name="ElementShortName">WD_Src_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_Src_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Memwrite_E" type="logic">
+      <obj_property name="ElementShortName">Memwrite_E</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RFW_Src_E" type="array">
+      <obj_property name="ElementShortName">RFW_Src_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WDRF_SEL_E" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL_E</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/PC_BJI_E" type="array">
+      <obj_property name="ElementShortName">PC_BJI_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_BJI_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RegWrite_M" type="logic">
+      <obj_property name="ElementShortName">RegWrite_M</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd_Src_M" type="array">
+      <obj_property name="ElementShortName">Rd_Src_M[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src_M[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/AluSrc_M" type="logic">
+      <obj_property name="ElementShortName">AluSrc_M</obj_property>
+      <obj_property name="ObjectShortName">AluSrc_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RFW_Src_M" type="array">
+      <obj_property name="ElementShortName">RFW_Src_M[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src_M[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WDRF_SEL_M" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL_M</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RegWrite_W" type="logic">
+      <obj_property name="ElementShortName">RegWrite_W</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/Rd_Src_W" type="array">
+      <obj_property name="ElementShortName">Rd_Src_W[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src_W[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/AluSrc_W" type="logic">
+      <obj_property name="ElementShortName">AluSrc_W</obj_property>
+      <obj_property name="ObjectShortName">AluSrc_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RFW_Src_W" type="array">
+      <obj_property name="ElementShortName">RFW_Src_W[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src_W[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WDRF_SEL_W" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL_W</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/RegWrite_D" type="logic">
+      <obj_property name="ElementShortName">RegWrite_D</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/InstrF" type="array">
+      <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Regwrite_W" type="logic">
+      <obj_property name="ElementShortName">Regwrite_W</obj_property>
+      <obj_property name="ObjectShortName">Regwrite_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Regwrite_M" type="logic">
+      <obj_property name="ElementShortName">Regwrite_M</obj_property>
+      <obj_property name="ObjectShortName">Regwrite_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmSrc" type="array">
+      <obj_property name="ElementShortName">ImmSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/AluSrc" type="logic">
+      <obj_property name="ElementShortName">AluSrc</obj_property>
+      <obj_property name="ObjectShortName">AluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmS" type="logic">
+      <obj_property name="ElementShortName">ImmS</obj_property>
+      <obj_property name="ObjectShortName">ImmS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ALUControl" type="array">
+      <obj_property name="ElementShortName">ALUControl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ALUResult_M" type="array">
+      <obj_property name="ElementShortName">ALUResult_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WD_M" type="array">
+      <obj_property name="ElementShortName">WD_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/B_Flag_E" type="logic">
+      <obj_property name="ElementShortName">B_Flag_E</obj_property>
+      <obj_property name="ObjectShortName">B_Flag_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ReadData_M" type="array">
+      <obj_property name="ElementShortName">ReadData_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd_Src" type="array">
+      <obj_property name="ElementShortName">Rd_Src[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/IR_Src" type="logic">
+      <obj_property name="ElementShortName">IR_Src</obj_property>
+      <obj_property name="ObjectShortName">IR_Src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd2Src" type="logic">
+      <obj_property name="ElementShortName">Rd2Src</obj_property>
+      <obj_property name="ObjectShortName">Rd2Src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WD_Src" type="array">
+      <obj_property name="ElementShortName">WD_Src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_Src[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/RFW_Src" type="array">
+      <obj_property name="ElementShortName">RFW_Src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_Src_E" type="logic">
+      <obj_property name="ElementShortName">PC_Src_E</obj_property>
+      <obj_property name="ObjectShortName">PC_Src_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_BJI" type="array">
+      <obj_property name="ElementShortName">PC_BJI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_BJI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WDRF_SEL" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/RF_WRITEDATA_W" type="array">
+      <obj_property name="ElementShortName">RF_WRITEDATA_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WRITEDATA_W[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/FlushE" type="logic">
+      <obj_property name="ElementShortName">FlushE</obj_property>
+      <obj_property name="ObjectShortName">FlushE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PCNext" type="array">
+      <obj_property name="ElementShortName">PCNext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCNext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ADD4_F" type="array">
+      <obj_property name="ElementShortName">PC_ADD4_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ADD4_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/StallF" type="logic">
+      <obj_property name="ElementShortName">StallF</obj_property>
+      <obj_property name="ObjectShortName">StallF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/StallD" type="logic">
+      <obj_property name="ElementShortName">StallD</obj_property>
+      <obj_property name="ObjectShortName">StallD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/FlushD" type="logic">
+      <obj_property name="ElementShortName">FlushD</obj_property>
+      <obj_property name="ObjectShortName">FlushD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/lwStall" type="logic">
+      <obj_property name="ElementShortName">lwStall</obj_property>
+      <obj_property name="ObjectShortName">lwStall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/PC_F" type="array">
+      <obj_property name="ElementShortName">PC_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ADD4_D" type="array">
+      <obj_property name="ElementShortName">PC_ADD4_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ADD4_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmExt_D" type="array">
+      <obj_property name="ElementShortName">ImmExt_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExt_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd1_D" type="array">
+      <obj_property name="ElementShortName">Rd1_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd1_D[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd2_D" type="array">
+      <obj_property name="ElementShortName">Rd2_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd2_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd1_E" type="array">
+      <obj_property name="ElementShortName">Rd1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd1_E[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/SrcA_E" type="array">
+      <obj_property name="ElementShortName">SrcA_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcA_E[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd2_E" type="array">
+      <obj_property name="ElementShortName">Rd2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd2_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/SourceB_E" type="array">
+      <obj_property name="ElementShortName">SourceB_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SourceB_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/InstrE" type="array">
+      <obj_property name="ElementShortName">InstrE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ADD4_E" type="array">
+      <obj_property name="ElementShortName">PC_ADD4_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ADD4_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmExt_E" type="array">
+      <obj_property name="ElementShortName">ImmExt_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExt_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_BTA_E" type="array">
+      <obj_property name="ElementShortName">PC_BTA_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_BTA_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmMux_E" type="array">
+      <obj_property name="ElementShortName">ImmMux_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmMux_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/SrcB_E" type="array">
+      <obj_property name="ElementShortName">SrcB_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB_E[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd2_RdImm_E" type="array">
+      <obj_property name="ElementShortName">Rd2_RdImm_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd2_RdImm_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ImmExt_E" type="array">
+      <obj_property name="ElementShortName">PC_ImmExt_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ImmExt_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_JTA_E" type="array">
+      <obj_property name="ElementShortName">PC_JTA_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_JTA_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_TARGET_E" type="array">
+      <obj_property name="ElementShortName">PC_TARGET_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_TARGET_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WD_E" type="array">
+      <obj_property name="ElementShortName">WD_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_F" type="array">
+      <obj_property name="ElementShortName">PC_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_D" type="array">
+      <obj_property name="ElementShortName">PC_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_E" type="array">
+      <obj_property name="ElementShortName">PC_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ALUResult_E" type="array">
+      <obj_property name="ElementShortName">ALUResult_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_E[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/InstrM" type="array">
+      <obj_property name="ElementShortName">InstrM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ADD4_M" type="array">
+      <obj_property name="ElementShortName">PC_ADD4_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ADD4_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmExt_M" type="array">
+      <obj_property name="ElementShortName">ImmExt_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExt_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ImmExt_M" type="array">
+      <obj_property name="ElementShortName">PC_ImmExt_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ImmExt_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ReadData_W" type="array">
+      <obj_property name="ElementShortName">ReadData_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ALUResult_W" type="array">
+      <obj_property name="ElementShortName">ALUResult_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/InstrW" type="array">
+      <obj_property name="ElementShortName">InstrW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/ImmExt_W" type="array">
+      <obj_property name="ElementShortName">ImmExt_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExt_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ImmExt_W" type="array">
+      <obj_property name="ElementShortName">PC_ImmExt_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ImmExt_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/PC_ADD4_W" type="array">
+      <obj_property name="ElementShortName">PC_ADD4_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ADD4_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rd_load_W" type="array">
+      <obj_property name="ElementShortName">Rd_load_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_load_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WD_RF_W" type="array">
+      <obj_property name="ElementShortName">WD_RF_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_RF_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/RFWD_W" type="array">
+      <obj_property name="ElementShortName">RFWD_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RFWD_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/op" type="array">
+      <obj_property name="ElementShortName">op[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/funct7" type="logic">
+      <obj_property name="ElementShortName">funct7</obj_property>
+      <obj_property name="ObjectShortName">funct7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Regwrite_D" type="logic">
+      <obj_property name="ElementShortName">Regwrite_D</obj_property>
+      <obj_property name="ObjectShortName">Regwrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/ImmSrc_D" type="array">
+      <obj_property name="ElementShortName">ImmSrc_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/ALUControl_D" type="array">
+      <obj_property name="ElementShortName">ALUControl_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Rd_Src_D" type="array">
+      <obj_property name="ElementShortName">Rd_Src_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_Src_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/AluSrc_D" type="logic">
+      <obj_property name="ElementShortName">AluSrc_D</obj_property>
+      <obj_property name="ObjectShortName">AluSrc_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/ImmS_D" type="logic">
+      <obj_property name="ElementShortName">ImmS_D</obj_property>
+      <obj_property name="ObjectShortName">ImmS_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/IR_Src_D" type="logic">
+      <obj_property name="ElementShortName">IR_Src_D</obj_property>
+      <obj_property name="ObjectShortName">IR_Src_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Rd2Src_D" type="logic">
+      <obj_property name="ElementShortName">Rd2Src_D</obj_property>
+      <obj_property name="ObjectShortName">Rd2Src_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/WD_Src_D" type="array">
+      <obj_property name="ElementShortName">WD_Src_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WD_Src_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Memwrite_D" type="logic">
+      <obj_property name="ElementShortName">Memwrite_D</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/RFW_Src_D" type="array">
+      <obj_property name="ElementShortName">RFW_Src_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFW_Src_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/WDRF_SEL_D" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL_D</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/PC_BJI_D" type="array">
+      <obj_property name="ElementShortName">PC_BJI_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_BJI_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Jump_D" type="logic">
+      <obj_property name="ElementShortName">Jump_D</obj_property>
+      <obj_property name="ObjectShortName">Jump_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/Branch_D" type="logic">
+      <obj_property name="ElementShortName">Branch_D</obj_property>
+      <obj_property name="ObjectShortName">Branch_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/CP/ALUop" type="array">
+      <obj_property name="ElementShortName">ALUop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/Regwrite" type="logic">
+      <obj_property name="ElementShortName">Regwrite</obj_property>
+      <obj_property name="ObjectShortName">Regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/A1" type="array">
+      <obj_property name="ElementShortName">A1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/A2" type="array">
+      <obj_property name="ElementShortName">A2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/A3" type="array">
+      <obj_property name="ElementShortName">A3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/WD3" type="array">
+      <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/IMEM/PC_F" type="array">
+      <obj_property name="ElementShortName">PC_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG" type="array">
+      <obj_property name="ElementShortName">REG[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/Rf/REG_SIZE" type="array">
+      <obj_property name="ElementShortName">REG_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/Rs1E" type="array">
+      <obj_property name="ElementShortName">Rs1E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/Rs1D" type="array">
+      <obj_property name="ElementShortName">Rs1D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/Rs2D" type="array">
+      <obj_property name="ElementShortName">Rs2D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/Rs2E" type="array">
+      <obj_property name="ElementShortName">Rs2E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RdM" type="array">
+      <obj_property name="ElementShortName">RdM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RdW" type="array">
+      <obj_property name="ElementShortName">RdW[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdW[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RdE" type="array">
+      <obj_property name="ElementShortName">RdE[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdE[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RegwriteM" type="logic">
+      <obj_property name="ElementShortName">RegwriteM</obj_property>
+      <obj_property name="ObjectShortName">RegwriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RegwriteW" type="logic">
+      <obj_property name="ElementShortName">RegwriteW</obj_property>
+      <obj_property name="ObjectShortName">RegwriteW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/WDRF_SEL" type="logic">
+      <obj_property name="ElementShortName">WDRF_SEL</obj_property>
+      <obj_property name="ObjectShortName">WDRF_SEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/RFW_SRC" type="logic">
+      <obj_property name="ElementShortName">RFW_SRC</obj_property>
+      <obj_property name="ObjectShortName">RFW_SRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/AluSrc" type="logic">
+      <obj_property name="ElementShortName">AluSrc</obj_property>
+      <obj_property name="ObjectShortName">AluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/lwStall" type="logic">
+      <obj_property name="ElementShortName">lwStall</obj_property>
+      <obj_property name="ObjectShortName">lwStall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/StallF" type="logic">
+      <obj_property name="ElementShortName">StallF</obj_property>
+      <obj_property name="ObjectShortName">StallF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/StallD" type="logic">
+      <obj_property name="ElementShortName">StallD</obj_property>
+      <obj_property name="ObjectShortName">StallD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/FlushD" type="logic">
+      <obj_property name="ElementShortName">FlushD</obj_property>
+      <obj_property name="ObjectShortName">FlushD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/FlushE" type="logic">
+      <obj_property name="ElementShortName">FlushE</obj_property>
+      <obj_property name="ObjectShortName">FlushE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/DP_CP/DP/HU/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+</wave_config>
